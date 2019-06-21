@@ -25,13 +25,13 @@ public class PPFGradualProgressView: UIView {
     /// 背景线的颜色
     public private(set) var lineBackgroundColor:UIColor = UIColor(red: 180.0 / 255.0, green: 180.0 / 255, blue: 180.0 / 255, alpha: 1.0)
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         barHeight = frame.size.height
         super.init(frame: frame)
         initializeUI()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.barHeight = bounds.size.height
         initializeUI()

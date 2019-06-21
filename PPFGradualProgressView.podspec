@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPFGradualProgressView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "可随意更改大小,可渐变的进度条"
 
   # This description is used to generate tags and improve search results.
